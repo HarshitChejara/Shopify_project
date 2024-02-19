@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -14,7 +15,7 @@ const Feedback = ({ isOpen, onClose }) => {
     <div className={`fixed inset-0 bg-black bg-opacity-60 ${isOpen ? '' : 'hidden'} flex items-center justify-center`}>
    
    <div className="lg:w-1/2 mx-auto flex flex-wrap">
-      <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-r rounded-2xl" src="https://dummyimage.com/400x400"/>
+      <Image alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-r rounded-2xl" src="https://dummyimage.com/400x400"/>
       <div className="bg-white rounded-l rounded-2xl lg:w-1/2 w-full p-6 lg:py-6 mt-6 lg:mt-0">
         <div className="flex">
           <h2 className="text-lg title-font text-black">Akshay J.</h2>

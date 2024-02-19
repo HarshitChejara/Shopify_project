@@ -39,7 +39,7 @@ export default function AboutUs() {
   return (
     <React.Fragment>
       <section className="bg-white text-gray-600 body-font">
-        <img className="h-auto max-w-full" src="../Group_1_2.png" alt="image1"/>
+        <Image className="h-auto max-w-full" src="../Group_1_2.png" alt="image1"/>
       </section>  
 
 
@@ -47,7 +47,7 @@ export default function AboutUs() {
         <div className="bg-[#213d2f] mt-10 text-black py-10 px-10 body-font">
             <div className="bg-white container mx-auto flex px-10 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img className="object-cover object-center" alt="hero" src="https://dummyimage.com/720x600"/>
+                    <Image className="object-cover object-center" alt="hero" src="https://dummyimage.com/720x600"/>
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 py-10 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black font-serif">Adil Qadri</h1>
@@ -55,7 +55,7 @@ export default function AboutUs() {
                     <p className="mb-8 leading-relaxed">Adil Qadri's perfume collection is known for its excellent quality and high-end scents.</p>
                     <p className="mb-8 leading-relaxed">Adil Qadri has created a new variety of attars to fit the current lifestyle, keeping in mind the expectations of the times and its devoted consumers who exclusively use attars. These</p>
                     <p>perfumes come in a variety of smells suitable for both formal and casual events.</p>
-                    <img src="#" className="h-14 w-52"/>
+                    <Image alt="#" src="#" className="h-14 w-52"/>
                     <h2 className="font-bold text-black">Adil Qadri</h2>
                     <h3 className="text-sm">Founder, CEO</h3>
                 </div>
@@ -68,7 +68,7 @@ export default function AboutUs() {
             <div className="container py-8 mx-auto flex flex-wrap">
                 <div className="px-5 mx-auto">
                 <div className="flex flex-wrap w-full py-20 relative mb-4">
-                    <img alt="gallery" className="w-full object-cover h-full object-center block absolute inset-0" src="../bg-1.png"/>
+                    <Image alt="gallery" className="w-full object-cover h-full object-center block absolute inset-0" src="../bg-1.png"/>
                     <div className="text-center z-10 w-full sm:px-72">
                         <h2 className="text-4xl text-white font-medium title-font mb-2 font-serif">Vision</h2>
                         <p className="leading-relaxed text-[#eedacf]">Our vision is to become a globally recognized perfume brand, known for our exceptional quality and captivating scents. We strive to create a positive impact by enhancing people's confidence and elevating their personal experiences through the power of fragrance.</p>
@@ -91,7 +91,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eaedde] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img1.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img1.png"/>
               </div>
               <p className="leading-relaxed">Premium</p>
               {/* onClick={openReview} */}
@@ -105,7 +105,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eedacf] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img2.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img2.png"/>
               </div>
               <p className="leading-relaxed">Cruelty</p>
               <p className="leading-relaxed">Free</p>
@@ -115,7 +115,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eaedde] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img3.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img3.png"/>
               </div>
               <p className="leading-relaxed">Long</p>
               <p className="leading-relaxed">Lasting</p>
@@ -125,7 +125,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eedacf] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img4.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img4.png"/>
               </div>
               <p className="leading-relaxed">Variety of</p>
               <p className="leading-relaxed">Fragrances</p>
@@ -135,7 +135,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eaedde] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img5.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img5.png"/>
               </div>
               <p className="leading-relaxed">Derma</p>
               <p className="leading-relaxed">Tested</p>
@@ -145,7 +145,7 @@ export default function AboutUs() {
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eedacf] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
-                <img className="h-auto max-w-full" src="../img6.png"/>
+                <Image alt="#" className="h-auto max-w-full" src="../img6.png"/>
               </div>
               <p className="leading-relaxed">100%</p>
               <p className="leading-relaxed">Vegan</p>

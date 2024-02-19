@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,15 +29,15 @@ const Contact = ({ isOpen, onClose }) => {
               <p>&nbsp;</p>
               </div>
               <div className="md:w-1/3 object-center item-center">
-              <img className="item-center inline-flex object-center h-18 w-16 mr-8" src="../logo-2.png"/>
-              <img className="item-center inline-flex object-center h-5 w-16" src="../logo-3.png"/>
+              <Image className="item-center inline-flex object-center h-18 w-16 mr-8" src="../logo-2.png" alt="#" />
+              <Image className="item-center inline-flex object-center h-5 w-16" src="../logo-3.png" alt="#"/>
               </div>
               <div className="md:w-1/3 object-center item-center">
               <p>&nbsp;</p>
               </div>
           </div>
 
-        {/* <img className="md:w-1/2 h-10 w-10" src="./logo-2.png"/><span><img className="md:w-1/2 h-10 w-10" src="./logo-3.png"/></span> */}
+        {/* <Image className="md:w-1/2 h-10 w-10" src="./logo-2.png"/><span><Image className="md:w-1/2 h-10 w-10" src="./logo-3.png"/></span> */}
         <h1 className="title-font font-bold text-xl text-white text-center py-12">Login now to access best offers!</h1>
         {/* <p className="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p> */}
       

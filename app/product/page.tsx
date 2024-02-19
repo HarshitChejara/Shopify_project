@@ -74,7 +74,7 @@ export default async function ProductPage() {
           <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             
             <div className="bg-white h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <img alt="team" className="border border-gray-300 flex-shrink-0 w-16 h-16 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/400x400"/>
+              <Image alt="team" className="border border-gray-300 flex-shrink-0 w-16 h-16 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/400x400"/>
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font text-gray-900">Oudh Al Hashmi Luxury Attar Perfume</h2>
                 <p className="leading-relaxed font-bold text-[#956827]">₹699
@@ -107,7 +107,7 @@ export default async function ProductPage() {
      <section className="bg-white text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
             <div className="lg:w-6/7 mx-auto flex flex-wrap">
-            <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/>
+            <Image alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:mt-0">
                 <h1 className="text-gray-900 text-4xl title-font font-bold mb-1">Assorted Luxury Attar Perfume Gift Set (6 × 5.5Ml)</h1>
                 <h2 className="text-sm title-font text-gray-500 tracking-widest">Earn 148 POPcoins</h2>
@@ -134,7 +134,7 @@ export default async function ProductPage() {
                   <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/3">
                       <div className="bg-[#ede5c9] h-full hover:border-black hover:border-1 hover:border border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
+                        <Image className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
                         <div className="p-2">
                           <h2 className="text-sm title-font font-medium mb-1 text-center">5.5 ML - 1 Bottle</h2>
                           <div className="w-full bg-[#ece9de]">
@@ -146,7 +146,7 @@ export default async function ProductPage() {
                     </div>
                     <div className="p-4 md:w-1/3">
                       <div className="bg-[#ede5c9] h-full hover:border-black hover:border-1 hover:border border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
+                        <Image className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
                         <div className="p-2">
                           <h2 className="text-sm title-font font-medium mb-1 text-center">5.5 ML - 1 Bottle</h2>
                           <div className="w-full bg-[#ece9de]">
@@ -158,7 +158,7 @@ export default async function ProductPage() {
                     </div>
                     <div className="p-4 md:w-1/3">
                       <div className="bg-[#ede5c9] h-full hover:border-black hover:border-1 hover:border border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
+                        <Image className="lg:h-48 md:h-36 w-full object-cover object-center p-2" src="https://dummyimage.com/720x400" alt="blog"/>
                         <div className="p-2">
                           <h2 className="text-sm title-font font-medium mb-1 text-center">5.5 ML - 1 Bottle</h2>
                           <div className="w-full bg-[#ece9de]">
@@ -258,11 +258,11 @@ export default async function ProductPage() {
 
 
       <section className="bg-white text-gray-600 body-font">
-        <img className="h-auto max-w-full px-8" src="./banner-4.png" alt="image1"/>
-        <img className="h-auto max-w-full px-8" src="./banner-5.png" alt="image1"/>
-        <img className="h-auto max-w-full px-8" src="./banner-6.png" alt="image1"/>
-        <img className="h-auto max-w-full px-8" src="./banner-7.png" alt="image1"/>
-        <img className="h-auto max-w-full px-8" src="./banner-8.png" alt="image1"/>
+        <Image className="h-auto max-w-full px-8" src="./banner-4.png" alt="image1"/>
+        <Image className="h-auto max-w-full px-8" src="./banner-5.png" alt="image1"/>
+        <Image className="h-auto max-w-full px-8" src="./banner-6.png" alt="image1"/>
+        <Image className="h-auto max-w-full px-8" src="./banner-7.png" alt="image1"/>
+        <Image className="h-auto max-w-full px-8" src="./banner-8.png" alt="image1"/>
       </section>  
 
 
@@ -372,7 +372,7 @@ export default async function ProductPage() {
                     <div className="bg-white">
                     {/* onClick={openModal2} */}
                     {/* <Modal2 isOpen={isModal2Open} onClose={closeModal2} /> */}
-                      {/* <img className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+                      {/* <Image className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
                       <div className="p-2">
                         <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Akshay J.</h2>
                         <h3 className="text-gray-400 text-xs font-medium title-font">2/15/2024</h3>
@@ -391,7 +391,7 @@ export default async function ProductPage() {
 
                   <div className="xl:w-1/4 md:w-1/2 p-4">
                     <div className="bg-white">
-                      <img className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+                      <Image className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
                       <div className="p-2">
                         <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Saniya M.</h2>
                         <h3 className="text-gray-400 text-xs font-medium title-font">2/15/2024</h3>
@@ -409,7 +409,7 @@ export default async function ProductPage() {
 
                   <div className="xl:w-1/4 md:w-1/2 p-4">
                     <div className="bg-white">
-                      <img className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+                      <Image className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
                       <div className="p-2">
                         <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Gaha H.</h2>
                         <h3 className="text-gray-400 text-xs font-medium title-font">2/15/2024</h3>
@@ -427,7 +427,7 @@ export default async function ProductPage() {
 
                   <div className="xl:w-1/4 md:w-1/2 p-4">
                     <div className="bg-white">
-                      <img className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+                      <Image className="h-40 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
                       <div className="p-2">
                         <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Imran S.</h2>
                         <h3 className="text-gray-400 text-xs font-medium title-font">2/15/2024</h3>
@@ -518,7 +518,7 @@ export default async function ProductPage() {
         {products.map((product, index) => (
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full" key={product.id}>
             <div className="px-4 py-6">
-                <img className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
+                <Image className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
                 <p className="leading-relaxed">{product.handle}</p>
                 <div className="flex justify-center md:flex py-2">
                     <FontAwesomeIcon icon={faStar} className="text-[#f2b01e] h-4 w-4"/>
@@ -550,7 +550,7 @@ export default async function ProductPage() {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              {/* <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"/> */}
+              {/* <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"/> */}
               <div className="w-full">
                 {/* <span className="inline-flex"> */}
                   <a className="text-white inline-flex">
@@ -564,7 +564,7 @@ export default async function ProductPage() {
           </div>
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              {/* <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"/> */}
+              {/* <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"/> */}
               <div className="w-full">
                 <span className="inline-flex">
                   <a className="text-white inline-flex">
@@ -578,7 +578,7 @@ export default async function ProductPage() {
           </div>
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              {/* <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"/> */}
+              {/* <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"/> */}
               <div className="w-full">
                 <span className="inline-flex">
                   <a className="text-white inline-flex">
@@ -592,7 +592,7 @@ export default async function ProductPage() {
           </div>
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
-              {/* <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"/> */}
+              {/* <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"/> */}
               <div className="w-full">
                 <span className="inline-flex">
                   <a className="text-white inline-flex">

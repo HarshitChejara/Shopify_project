@@ -43,7 +43,7 @@ export default async function ProductPage() {
       {products.map((product, index) => (
         <div className="p-4 lg:w-1/3" key={product.id}>
           <div className="bg-white p-3 rounded-xl h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img className="border border-gray-300 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={urlProduct[index]} alt={images[index].altText} />
+            <Image className="border border-gray-300 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={urlProduct[index]} alt={images[index].altText} />
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font text-gray-900">{product.handle}</h2>
               {/* <h3 className="text-gray-500 mb-3">UI Developer</h3> */}
@@ -82,7 +82,7 @@ export default async function ProductPage() {
             {collections.map((collection, index) => (
             <div className="p-4 lg:w-1/4" key={index}>
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 sm:pt-40 sm:pb-96 overflow-hidden text-center relative">
-              <img alt={collectionImages[index].altText} src={collectionImages[index].src} className="h-full w-full object-cover object-center block absolute inset-0"/>
+              <Image alt={collectionImages[index].altText} src={collectionImages[index].src} className="h-full w-full object-cover object-center block absolute inset-0"/>
                 <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                   <span className="text-white mr-3 inline-flex items-center leading-none pr-3 py-1 border-gray-200">
                   {collection}
@@ -106,7 +106,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img1.png"/>
+                <Image className="h-auto max-w-full" src="./img1.png" alt="#"/>
               </div>
               <p className="leading-relaxed">Premium</p>
               <p className="leading-relaxed">Quality</p>
@@ -116,7 +116,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full ">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img2.png"/>
+                <Image className="h-auto max-w-full" src="./img2.png" alt="#" />
               </div>
               <p className="leading-relaxed">Cruelty</p>
               <p className="leading-relaxed">Free</p>
@@ -126,7 +126,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img3.png"/>
+                <Image className="h-auto max-w-full" src="./img3.png" alt="#" />
               </div>
               <p className="leading-relaxed">Long</p>
               <p className="leading-relaxed">Lasting</p>
@@ -136,7 +136,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img4.png"/>
+                <Image className="h-auto max-w-full" src="./img4.png" alt="#"/>
               </div>
               <p className="leading-relaxed">Variety of</p>
               <p className="leading-relaxed">Fragrances</p>
@@ -146,7 +146,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img5.png"/>
+                <Image className="h-auto max-w-full" src="./img5.png" alt="#"/>
               </div>
               <p className="leading-relaxed">Derma</p>
               <p className="leading-relaxed">Tested</p>
@@ -156,7 +156,7 @@ export default async function ProductPage() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img6.png"/>
+                <Image className="h-auto max-w-full" src="./img6.png" alt="#"/>
               </div>
               <p className="leading-relaxed">100%</p>
               <p className="leading-relaxed">Vegan</p>

@@ -35,7 +35,7 @@ export default async function Home() {
   return (
     <React.Fragment>
       <section className="text-gray-600 body-font">
-        <img className="h-auto max-w-full" src="./banner-1.png" alt="image1"/>
+        <Image className="h-auto max-w-full" src="./banner-1.png" alt="image1"/>
       </section>  
 
 
@@ -50,7 +50,7 @@ export default async function Home() {
             {collections.map((collection, index) => (
             <div className="p-4 lg:w-1/4" key={index}>
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 sm:pt-40 sm:pb-96 overflow-hidden text-center flex relative">
-              <img alt={collectionImages[index].altText} src={collectionImages[index].src} className="h-full w-full object-cover object-center block absolute inset-0"/>
+              <Image alt={collectionImages[index].altText} src={collectionImages[index].src} className="h-full w-full object-cover object-center block absolute inset-0"/>
                 <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                   <span className="text-white mr-3  items-center leading-none pr-3 py-1 border-gray-200">
                   {collection}
@@ -65,7 +65,7 @@ export default async function Home() {
 
 
       <section className="bg-white text-gray-600 body-font px-5">
-        <Link href="collections"><img className="h-auto rounded-3xl max-w-full" src="./banner-2.png"/></Link>
+        <Link href="collections"><Image className="h-auto rounded-3xl max-w-full" alt="#" src="./banner-2.png"/></Link>
       </section>
 
       
@@ -81,7 +81,7 @@ export default async function Home() {
                 {products.map((product, index) => (
                   <div className="p-4 md:w-1/4 sm:w-1/2 w-full" key={product.id}>
                     <div className="px-4 py-6">
-                      <img className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
+                      <Image className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
                       <p className="leading-relaxed">{product.handle}</p>
                       <div className="flex justify-center md:flex py-2">
                             <FontAwesomeIcon icon={faStar} className="text-[#f2b01e] h-4 w-4"/>
@@ -110,7 +110,7 @@ export default async function Home() {
       <section className="bg-white text-[#491b0e] body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="bg-[#fff0df] rounded-3xl flex flex-wrap w-full items-center">
-          <img className="lg:w-2/4 md:w-1/2 object-cover object-center rounded-3xl md:mt-0 mt-12" src="./banner-3.png" alt="step"/>      
+          <Image className="lg:w-2/4 md:w-1/2 object-cover object-center rounded-3xl md:mt-0 mt-12" src="./banner-3.png" alt="step"/>      
             <div className="lg:w-2/4 md:w-1/2 md:pr-10 md:py-6">
               <div className="flex pb-12">
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -136,7 +136,7 @@ export default async function Home() {
         {comboProducts.map((product, index) => (
           <div className="p-4 md:w-1/3 sm:w-1/2 w-full" key={product.id}>
             <div className="px-4 py-6">
-              <img className="h-auto max-w-full" src={comboUrlProduct[index]} alt={comboImages[index].altText}/>
+              <Image className="h-auto max-w-full" src={comboUrlProduct[index]} alt={comboImages[index].altText}/>
               <p className="leading-relaxed">{product.title}<br/>&nbsp;</p>
               <div className="flex justify-center md:flex py-2">
                     <FontAwesomeIcon icon={faStar} className="text-[#f2b01e] h-4 w-4"/>
@@ -168,7 +168,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img1.png"/>
+                <Image className="h-auto max-w-full" src="./img1.png" alt="#" />
               </div>
               <p className="leading-relaxed">Premium</p>
               <p className="leading-relaxed">Quality</p>
@@ -178,7 +178,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full ">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img2.png"/>
+                <Image className="h-auto max-w-full" src="./img2.png" alt="#" />
               </div>
               <p className="leading-relaxed">Cruelty</p>
               <p className="leading-relaxed">Free</p>
@@ -188,7 +188,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img3.png"/>
+                <Image className="h-auto max-w-full" src="./img3.png" alt="#" />
               </div>
               <p className="leading-relaxed">Long</p>
               <p className="leading-relaxed">Lasting</p>
@@ -198,7 +198,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img4.png"/>
+                <Image className="h-auto max-w-full" src="./img4.png" alt="#"/>
               </div>
               <p className="leading-relaxed">Variety of</p>
               <p className="leading-relaxed">Fragrances</p>
@@ -208,7 +208,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#ffffff] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img5.png"/>
+                <Image className="h-auto max-w-full" src="./img5.png" alt="#"/>
               </div>
               <p className="leading-relaxed">Derma</p>
               <p className="leading-relaxed">Tested</p>
@@ -218,7 +218,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full">
             <div className="bg-[#eedacf] rounded-xl px-4 py-6">
               <div className="w-10 h-10 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./img6.png"/>
+                <Image className="h-auto max-w-full" src="./img6.png" alt="#" />
               </div>
               <p className="leading-relaxed">100%</p>
               <p className="leading-relaxed">Vegan</p>
@@ -236,7 +236,7 @@ export default async function Home() {
         <div className="bg-[#213d2f] mt-10 text-black py-10 px-10 body-font">
             <div className="bg-white container mx-auto flex px-10 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img className="object-cover object-center" alt="hero" src="https://dummyimage.com/720x600"/>
+                    <Image className="object-cover object-center" alt="hero" src="https://dummyimage.com/720x600"/>
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 py-10 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black font-serif">Adil Qadri</h1>
@@ -244,7 +244,7 @@ export default async function Home() {
                     <p className="mb-8 leading-relaxed">Adil Qadri's perfume collection is known for its excellent quality and high-end scents.</p>
                     <p className="mb-8 leading-relaxed">Adil Qadri has created a new variety of attars to fit the current lifestyle, keeping in mind the expectations of the times and its devoted consumers who exclusively use attars. These</p>
                     <p>perfumes come in a variety of smells suitable for both formal and casual events.</p>
-                    <img src="#" className="h-14 w-52"/>
+                    <Image alt="#" src="#" className="h-14 w-52"/>
                     <h2 className="font-bold text-black">Adil Qadri</h2>
                     <h3 className="text-sm">Founder, CEO</h3>
                 </div>
@@ -269,7 +269,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-32 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-1.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-1.png"/>
               </div>
             </div>
           </div>
@@ -277,7 +277,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-24 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-2.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-2.png"/>
               </div>
             </div>
           </div>
@@ -285,7 +285,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-24 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-3.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-3.png"/>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-32 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-4.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-4.png"/>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-24 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-5.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-5.png"/>
               </div>
             </div>
           </div>
@@ -309,7 +309,7 @@ export default async function Home() {
           <div className="p-5 md:w-1/6 sm:w-1/2 w-full border-r border-gray-500">
             <div className="bg-transparent rounded-xl px-4 py-6">
               <div className="w-24 rounded-full inline-flex items-center justify-center text-gray-400 mb-8">
-                <img className="h-auto max-w-full" src="./media-6.png"/>
+                <Image className="h-auto max-w-full" alt="#" src="./media-6.png"/>
               </div>
             </div>
           </div>
@@ -330,7 +330,7 @@ export default async function Home() {
     </div>
     <div className="bg-white rounded-xl px-24 py-5 w-full mx-auto text-center">
       <div className="">
-        <img alt="testimonial" className="w-24 h-24 mb-4  object-cover object-center rounded-full inline-block border-3 border-gray-200 bg-gray-200" src="./testimonial_user.png"/><br/>
+        <Image alt="testimonial" className="w-24 h-24 mb-4  object-cover object-center rounded-full inline-block border-3 border-gray-200 bg-gray-200" src="./testimonial_user.png"/><br/>
       </div>
       <p className="leading-relaxed text-lg mt-3 mb-5">It's totally amazing fragrance adil bro. I love this new tabish attar it's fragrance is like doing hypnotise. No more words to describe this. I strongly suggest this to all.</p>
       <FontAwesomeIcon icon={faStar} className="ml-1 text-[#FFB545]"/>

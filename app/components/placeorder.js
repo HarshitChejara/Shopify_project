@@ -1,5 +1,6 @@
 // "use client";
 import React, { useState } from 'react';
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTag } from '@fortawesome/free-solid-svg-icons';
 import { fa1 } from '@fortawesome/free-solid-svg-icons';
@@ -68,7 +69,7 @@ const Placeorder = ({ isOpen, onClose }) => {
 
       <div className="bg-white rounded-xl p-4 lg:w-2/3 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
         <div className="flex mb-5">
-          <img src="../logo-4.png" className="w-24 h-7"/>
+          <Image alt="#" src="../logo-4.png" className="w-24 h-7"/>
           <h2>&nbsp;</h2>
           <div className="justify-items-end flex justify-end ml-auto ">
             <h2 className="bg-[#e2f2da] text-sm title-font text-black rounded-lg px-1 justify-items-end"><FontAwesomeIcon icon={faTag} className="w-5 h-5 text-[#16a34a]"/> Extra<span className="font-bold"> Discount</span> Available at Payment Step</h2>
@@ -119,7 +120,7 @@ const Placeorder = ({ isOpen, onClose }) => {
                         <div className="flex flex-wrap -m-4">
                             <div className="p-2 w-full">
                             <div className="bg-white p-2 rounded-lg h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" className="border border-gray-300 flex-shrink-0 rounded w-16 h-16 object-cover object-center sm:mb-0 mb-4" src=""/>
+                                <Image alt="team" src="" className="border border-gray-300 flex-shrink-0 rounded w-16 h-16 object-cover object-center sm:mb-0 mb-4"/>
                                 <div className="flex-grow sm:pl-3">
                                   <h2 className="title-font text-xs text-black">Assorted Luxury Attar Perfume Gift Set (6 × 5.5Ml)</h2>
                                   <p className="text-black text-xs">Price: ₹1499.00</p>
@@ -158,7 +159,7 @@ const Placeorder = ({ isOpen, onClose }) => {
 
 
 
-      {/* <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
+      {/* <Image alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400"/> */}
     </div>
   </div>
 </section>

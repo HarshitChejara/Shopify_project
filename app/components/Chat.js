@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,7 +17,7 @@ const Chat = ({ isOpen, onClose }) => {
 
         <div className="bg-[#5bb974] w-full rounded-b-0 rounded-t-xl top-0 p-4">
         <a className="flex w-full mx-auto inline-flex items-center">
-          <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+          <Image alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
           <span className="flex-grow flex flex-col pl-4">
             <span className="title-font font-medium text-white">Adilqadri Perfume Expert</span>
             <span className="text-black text-xs tracking-widest mt-0.5">Working for smooth experience</span>

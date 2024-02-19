@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Image from "next/image";
 // import Sidebar from '../components/Sidebar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -96,7 +97,7 @@ export default function Header()
 
         </nav>
         <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-        <img className="h-6 w-25" src="../Logo.png" alt="image1"/>
+        <Image className="h-6 w-25" src="../Logo.png" alt="image1"/>
         </a>
         <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
         <FontAwesomeIcon icon={faMagnifyingGlass} onClick={handleSearchbarToggle} className='text-black h-5 w-5 mr-5'/>
@@ -139,7 +140,7 @@ export default function Header()
                 <div className="flex flex-wrap -m-4">
                     <div className="p-8">
                     <div className="bg-[#f6f6f6] p-3 rounded-xl h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                        <img alt="team" className="border border-gray-300 flex-shrink-0 rounded-lg w-24 h-24 object-cover object-center sm:mb-0 mb-4" src=""/>
+                        <Image alt="team" className="border border-gray-300 flex-shrink-0 rounded-lg w-24 h-24 object-cover object-center sm:mb-0 mb-4" src=""/>
                         <div className="flex-grow sm:pl-8">
 
                         <div className="flex">
@@ -225,7 +226,7 @@ export default function Header()
                 <div className="flex flex-wrap -m-4">
                     <div className="p-8 w-full">
                     <div className="bg-[#f6f6f6] p-2 rounded-lg h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                        <img alt="team" className="border border-gray-300 flex-shrink-0 rounded w-24 h-24 object-cover object-center sm:mb-0 mb-4" src=""/>
+                        <Image alt="team" className="border border-gray-300 flex-shrink-0 rounded w-24 h-24 object-cover object-center sm:mb-0 mb-4" src=""/>
                         <div className="flex-grow sm:pl-8">
                         <h2 className="title-font text-gray-900 font-medium">Shanaya Luxury Attar Perfume</h2>
                         <p className="leading-relaxed font-bold text-[#956827]">₹399
