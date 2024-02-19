@@ -1,18 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+// import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { fa1 } from '@fortawesome/free-solid-svg-icons';
 import { fa2 } from '@fortawesome/free-solid-svg-icons';
 import { fa3 } from '@fortawesome/free-solid-svg-icons';
-import { useMultistepForm } from "@/app/components/useMultistepForm";
+// import { useMultistepForm } from "@/app/components/useMultistepForm";
 // import { Mobile } from "@/app/components/Mobile";
-import { Otp } from "@/app/components/otp";
-import { AddressForm } from "@/app/components/AddressForm";
-import { Payment } from "@/app/components/Payment";
+// import { Otp } from "@/app/components/otp";
+// import { AddressForm } from "@/app/components/AddressForm";
+// import { Payment } from "@/app/components/Payment";
 
 export function Mobile() {
 
 
-    const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Otp/>, <AddressForm/>, <Payment/>])
+    // const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Otp/>, <AddressForm/>, <Payment/>])
 
 
     

@@ -100,7 +100,7 @@ const Contact = ({ isOpen, onClose }) => {
             <span className="title-font font-medium">Whatsapp Login</span>
           </span>
         </button>
-        <p className="text-xs text-gray-500 mt-5 text-center">I accept that I have read & understood Gokwik's Privacy Policy and T&Cs.</p>
+        <p className="text-xs text-gray-500 mt-5 text-center">I accept that I have read & understood Gokwiks Privacy Policy and T&Cs.</p>
         <p className="text-xs text-gray-500 mt-5 text-center">Trouble logging in?</p>
       </div>
 

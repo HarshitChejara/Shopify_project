@@ -26,7 +26,7 @@ export default function RefundsCancellations() {
 
         <p className="mt-8">(b) a refund may be obtained for goods purchased by you, subject to certain conditions</p>
 
-        <p className="mt-8">(c) you may cancel orders for goods purchased by you within a stipulated period of time"</p>
+        <p className="mt-8">(c) you may cancel orders for goods purchased by you within a stipulated period of time</p>
 
         <p className="mt-8">It is important to note while the Company makes best efforts to ensure that returns, refunds and cancellations are available to the users of the Website, the Company has to place certain restrictions on the same in order to meet its business, legal and contractual obligations. Return, refunds or cancellations may also vary from brand to brand, in which case each such good sold there under will have specific guidelines which will determine the terms and conditions related to return, refunds or cancellations (the “Guidelines”). In each such case, the Guidelines shall prevail over this Policy and it is important for you to acquaint yourself with the applicable Guidelines while making a purchase on the Website.</p>
 

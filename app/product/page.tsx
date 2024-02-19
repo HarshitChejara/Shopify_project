@@ -438,7 +438,7 @@ export default async function ProductPage() {
                               <FontAwesomeIcon icon={faStar} className="text-[#f2b01e] h-4 w-4"/>
                               <FontAwesomeIcon icon={faStar} className="text-[#f2b01e] h-4 w-4"/>
                           </div>
-                          <p className="leading-relaxed text-sm">I saw it on Instagram and booked it but I didn't expect it to smell so beautiful and it smells so long. 
+                          <p className="leading-relaxed text-sm">I saw it on Instagram and booked it but I didnt expect it to smell so beautiful and it smells so long. 
                           Actually till now I have been using Jannatul Firdosi attar but till now I have not cracked such attar like Adilakdri program.⭐⭐⭐⭐⭐</p>
                       </div>
                     </div>

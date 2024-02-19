@@ -90,7 +90,7 @@ const Placeorder = ({ isOpen, onClose }) => {
   </button>
   </div>
   </div>
-  <p className="text-xs text-gray-500 mt-5 text-center">By proceeding, I accept that I have read and understood the Gokwik's Privacy Policy and T&C</p>
+  <p className="text-xs text-gray-500 mt-5 text-center">By proceeding, I accept that I have read and understood the Gokwiks Privacy Policy and T&C</p>
 </form>       
 
       </div>

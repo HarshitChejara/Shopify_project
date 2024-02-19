@@ -51,8 +51,8 @@ export default function AboutUs() {
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 py-10 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black font-serif">Adil Qadri</h1>
-                    <p className="mb-8 leading-relaxed">Mohamadadil Asif Malkani (Founder & CEO) is the Man behind "Adil Qadri,"an indigenous premium perfume business.</p>
-                    <p className="mb-8 leading-relaxed">Adil Qadri's perfume collection is known for its excellent quality and high-end scents.</p>
+                    <p className="mb-8 leading-relaxed">Mohamadadil Asif Malkani (Founder & CEO) is the Man behind Adil Qadri, an indigenous premium perfume business.</p>
+                    <p className="mb-8 leading-relaxed">Adil Qadris perfume collection is known for its excellent quality and high-end scents.</p>
                     <p className="mb-8 leading-relaxed">Adil Qadri has created a new variety of attars to fit the current lifestyle, keeping in mind the expectations of the times and its devoted consumers who exclusively use attars. These</p>
                     <p>perfumes come in a variety of smells suitable for both formal and casual events.</p>
                     <Image alt="#" src="#" className="h-14 w-52"/>
@@ -71,7 +71,7 @@ export default function AboutUs() {
                     <Image alt="gallery" className="w-full object-cover h-full object-center block absolute inset-0" src="../bg-1.png"/>
                     <div className="text-center z-10 w-full sm:px-72">
                         <h2 className="text-4xl text-white font-medium title-font mb-2 font-serif">Vision</h2>
-                        <p className="leading-relaxed text-[#eedacf]">Our vision is to become a globally recognized perfume brand, known for our exceptional quality and captivating scents. We strive to create a positive impact by enhancing people's confidence and elevating their personal experiences through the power of fragrance.</p>
+                        <p className="leading-relaxed text-[#eedacf]">Our vision is to become a globally recognized perfume brand, known for our exceptional quality and captivating scents. We strive to create a positive impact by enhancing peoples confidence and elevating their personal experiences through the power of fragrance.</p>
                         <h2 className="text-4xl text-white font-medium title-font mb-2 font-serif mt-5">Mission</h2>
                         <p className="leading-relaxed text-[#eedacf]">Our mission is to continuously innovate and provide our customers with an extensive range of fragrances that evoke emotions and leave a lasting impression.</p>
                     </div>

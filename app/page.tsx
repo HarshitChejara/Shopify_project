@@ -115,7 +115,7 @@ export default async function Home() {
               <div className="flex pb-12">
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-serif tracking-tight">Our Best Seller Shanaya</h1>
-                  <p className="mb-8 leading-relaxed">"Shanaya" by Adil Qadri: A fusion of Arabic and French elegance. Immerse yourself in the rich allure of amber and oudh, delicately balanced with caramel notes. Elevate your senses with Shanaya, where East meets West in a perfect harmony of scent.</p>
+                  <p className="mb-8 leading-relaxed">Shanaya by Adil Qadri: A fusion of Arabic and French elegance. Immerse yourself in the rich allure of amber and oudh, delicately balanced with caramel notes. Elevate your senses with Shanaya, where East meets West in a perfect harmony of scent.</p>
                   <div className="flex justify-center">
                     <button className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none font-bold rounded text-lg">Indulge Now</button>
                   </div>
@@ -240,8 +240,8 @@ export default async function Home() {
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 py-10 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black font-serif">Adil Qadri</h1>
-                    <p className="mb-8 leading-relaxed">Mohamadadil Asif Malkani (Founder & CEO) is the Man behind "Adil Qadri,"an indigenous premium perfume business.</p>
-                    <p className="mb-8 leading-relaxed">Adil Qadri's perfume collection is known for its excellent quality and high-end scents.</p>
+                    <p className="mb-8 leading-relaxed">Mohamadadil Asif Malkani (Founder & CEO) is the Man behind Adil Qadri, an indigenous premium perfume business.</p>
+                    <p className="mb-8 leading-relaxed">Adil Qadris perfume collection is known for its excellent quality and high-end scents.</p>
                     <p className="mb-8 leading-relaxed">Adil Qadri has created a new variety of attars to fit the current lifestyle, keeping in mind the expectations of the times and its devoted consumers who exclusively use attars. These</p>
                     <p>perfumes come in a variety of smells suitable for both formal and casual events.</p>
                     <Image alt="#" src="#" className="h-14 w-52"/>
@@ -332,7 +332,7 @@ export default async function Home() {
       <div className="">
         <Image alt="testimonial" className="w-24 h-24 mb-4  object-cover object-center rounded-full inline-block border-3 border-gray-200 bg-gray-200" src="./testimonial_user.png"/><br/>
       </div>
-      <p className="leading-relaxed text-lg mt-3 mb-5">It's totally amazing fragrance adil bro. I love this new tabish attar it's fragrance is like doing hypnotise. No more words to describe this. I strongly suggest this to all.</p>
+      <p className="leading-relaxed text-lg mt-3 mb-5">Its totally amazing fragrance adil bro. I love this new tabish attar its fragrance is like doing hypnotise. No more words to describe this. I strongly suggest this to all.</p>
       <FontAwesomeIcon icon={faStar} className="ml-1 text-[#FFB545]"/>
       <FontAwesomeIcon icon={faStar} className="ml-1 text-[#FFB545]"/>
       <FontAwesomeIcon icon={faStar} className="ml-1 text-[#FFB545]"/>
