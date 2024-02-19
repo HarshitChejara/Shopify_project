@@ -72,7 +72,7 @@ export default async function ProductPage() {
 
         <div className="mt-8">
           <div className="bg-[#f6f6f6] p-2 rounded-lg h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <Image alt="team" className="border border-gray-300 flex-shrink-0 rounded-lg w-24 h-24 object-cover object-center sm:mb-0 mb-4" src="../"/>
+            <img alt="team" className="border border-gray-300 flex-shrink-0 rounded-lg w-24 h-24 object-cover object-center sm:mb-0 mb-4" src="../"/>
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font text-gray-900">Assorted Luxury Attar Perfume Gift Set (6 × 5.5Ml)</h2>
               <p className="leading-relaxed font-bold text-black">₹1,499</p>
@@ -445,7 +445,7 @@ export default async function ProductPage() {
         {products.map((product, index) => (
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full" key={product.id}>
             <div className="px-4 py-6">
-                <Image className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
+                <img className="h-auto max-w-full" src={urlProduct[index]} alt={images[index].altText}/>
                 <button className="bg-white hover:bg-gray-300 border border-black text-black font-bold rounded-lg w-full p-3 mt-2">Add To Cart</button>
                 <p className="leading-relaxed">{product.handle}</p>
                 <div className="flex justify-center md:flex py-2">
