@@ -26,9 +26,15 @@ import { Payment } from "@/app/components/Payment";
 
 const Placeorder = ({ isOpen, onClose }) => {
 
-
-  const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Blank/>, <Mobile/>, <Otp/>, <AddressForm/>, <Payment/>])
-
+                                                      
+  const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = useMultistepForm([
+    <Blank key="blank" />,
+    <Mobile key="mobile" />,
+    <Otp key="otp" />,
+    <AddressForm key="addressForm" />,
+    <Payment key="payment" />
+  ]);
+  
 
 
       const handleSubmit = (e) => {
@@ -53,14 +59,6 @@ const Placeorder = ({ isOpen, onClose }) => {
 
 
 
-
-
-
-
-
-
-
-   
    <section className="text-gray-600 body-font overflow-hidden">
    <div className="container px-5 py-24 sm:px-56 mx-auto">
     <div className="border bg-[#f9f9f9] rounded-xl lg:w-5/6 mx-auto flex flex-wrap">
@@ -85,7 +83,7 @@ const Placeorder = ({ isOpen, onClose }) => {
   </button>} */}
   <div className="items-center justify-center container px-32">
   <button type="button" onClick={next} className="text-white hover:bg-[#fbdcb1] bg-[#f6a73c] inline-flex w-full py-3 rounded-lg items-center justify-center text-center focus:outline-none">
-    {isLstStep ? "Finish" : "Continue"}
+    {isLastStep ? "Finish" : "Continue"}
   <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5"/>
   </button>
   </div>

@@ -12,7 +12,7 @@ import { fa3 } from '@fortawesome/free-solid-svg-icons';
 export function Mobile() {
 
 
-    // const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Otp/>, <AddressForm/>, <Payment/>])
+    // const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = useMultistepForm([<Otp/>, <AddressForm/>, <Payment/>])
 
 
     
