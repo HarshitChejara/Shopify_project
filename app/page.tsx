@@ -35,7 +35,7 @@ export default async function Home() {
   return (
     <React.Fragment>
       <section className="text-gray-600 body-font">
-        <Image className="h-auto max-w-full" src="./banner-1.png" alt="image1"/>
+        <Image className="h-auto max-w-full" src="/banner-1.png" alt="image1"/>
       </section>  
 
 
